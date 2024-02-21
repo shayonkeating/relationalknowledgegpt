@@ -1,0 +1,10 @@
+auth/api_key.txt
+auth/
+video_files/
+audio_files/
+__pycache__/
+*.srt
+*.tsv
+*.vtt
+*.json
+.ipynb_checkpoints/
