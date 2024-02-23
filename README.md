@@ -1,13 +1,18 @@
 # relationalknowledgegpt
-Relational Knowledge Graphs using GPT with videos
+Relational NLP Knowledge Graphs with videos and/or audio
 
 ## 🚀 Features
 
 ## 🛠️ Technologies
 
+- `NLP`
+- `GPTs`
+- `Jupyter Notebooks`
 - `Python`
 
 ## 📝 How It Works
+
+
 
 ## 🚦 Running the Project
 
