@@ -1,4 +1,4 @@
-<img src="https://github.com/shayonkeating/relationalknowledgegpt/blob/main/text_files/graph_image.png" width="100" height="100">
+<img src="https://github.com/shayonkeating/relationalknowledgegpt/blob/main/text_files/graph_image.png" width="500" height="500">
 
 # relationalknowledgegpt
 Relational NLP Knowledge Graphs with videos and/or audio
