@@ -1,4 +1,4 @@
-![GitHub Logo]()
+![GitHub Logo](https://github.com/shayonkeating/relationalknowledgegpt/blob/main/text_files/graph_image.png)
 
 # relationalknowledgegpt
 Relational NLP Knowledge Graphs with videos and/or audio
