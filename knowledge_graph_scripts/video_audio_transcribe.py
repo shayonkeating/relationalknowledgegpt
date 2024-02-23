@@ -1,4 +1,20 @@
 #!/usr/bin/env python
+"""
+Utilizing OpenAIs whisper model, this script can do text to speech of a video or audio \
+file. Simply drop a video into the video folder or drop audio into the audio folder \
+and it will generate a text file from what it says. NLP at its finest. Model will \
+take a while to chug through the data so be patient especially if it is a long video. \
+
+Author: Shayon Keating
+Date: February 23, 2024
+"""
+
+
+# installing required libraries if needed, may need to be done manually 
+# !pip install pydub
+# !pip install git+https://github.com/openai/whisper.git
+# !sudo apt update && sudo apt install ffmpeg
+
 
 # import reqs
 import warnings
@@ -38,7 +54,7 @@ def transcribe_and_save(audio_files, text_files, model='medium.en'):
     
     Args: audio files
     
-    Ouptut: .txt file
+    Ouptut: .txt file in ./text_file folder
     """
     # Construct the Whisper command
     whisper_command = f"whisper '{audio_files}' --model {model}"
@@ -72,5 +88,4 @@ for audio_file in os.listdir(audio_files):
     if audio_file.endswith('.wav'):
         audio_files = os.path.join(audio_files, audio_file)
         transcribe_and_save(audio_files, text_files)
-
-# This will take a while to trduge through, be patient, its a lot of data for a 5 min video
+# This will take a while to trduge through, be patient, its a lot of data
